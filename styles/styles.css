@@ -33,15 +33,15 @@ header .header-text {
     margin-right: 10px;
 }
 
-header .header-text font {
+header .header-text span {
     font-size: 2.5em;
 }
 
-header .header-text font[color="#ff0000"] {
+header .header-text span[style="color: #ff0000;"] {
     color: #ff0000;
 }
 
-header .header-text font[color="#66ffff"] {
+header .header-text span[style="color: #66ffff;"] {
     color: #66ffff;
 }
 
@@ -56,7 +56,7 @@ nav hr {
     border: none;
 }
 
-nav font {
+nav span {
     font-size: 2.5em;
     color: #ff0099;
     font-weight: bold;
@@ -76,27 +76,27 @@ section table td {
     padding: 0;
 }
 
-section font {
+section span {
     font-size: 1.2em;
 }
 
-section font[size="+1"] {
+section span[style="font-size: 1.2em;"] {
     font-size: 1.2em;
 }
 
-section font[size="+2"] {
+section span[style="font-size: 1.5em;"] {
     font-size: 1.5em;
 }
 
-section font[color="#ccffff"] {
+section span[style="color: #ccffff;"] {
     color: #ccffff;
 }
 
-section font[color="#ffff66"] {
+section span[style="color: #ffff66;"] {
     color: #ffff66;
 }
 
-section font[color="#ff0099"] {
+section span[style="color: #ff0099;"] {
     color: #ff0099;
 }
 
@@ -111,23 +111,23 @@ article {
     text-align: left;
 }
 
-article font {
+article span {
     font-size: 1.2em;
 }
 
-article font[size="+1"] {
+article span[style="font-size: 1.2em;"] {
     font-size: 1.2em;
 }
 
-article font[size="+2"] {
+article span[style="font-size: 1.5em;"] {
     font-size: 1.5em;
 }
 
-article font[color="#ffcc66"] {
+article span[style="color: #ffcc66;"] {
     color: #ffcc66;
 }
 
-article font[color="#ccffff"] {
+article span[style="color: #ccffff;"] {
     color: #ccffff;
 }
 
@@ -140,19 +140,19 @@ aside img {
     margin: 0 0 10px 10px;
 }
 
-aside font {
+aside span {
     font-size: 1.2em;
 }
 
-aside font[size="4"] {
+aside span[style="font-size: 1.5em;"] {
     font-size: 1.5em;
 }
 
-aside font[color="#ffcc66"] {
+aside span[style="color: #ffcc66;"] {
     color: #ffcc66;
 }
 
-aside font[color="#ccffff"] {
+aside span[style="color: #ccffff;"] {
     color: #ccffff;
 }
 
@@ -160,10 +160,10 @@ footer {
     text-align: center;
 }
 
-footer font {
+footer span {
     font-size: 1.2em;
 }
 
-footer font[color="#ccffff"] {
+footer span[style="color: #ccffff;"] {
     color: #ccffff;
 }
