@@ -1,0 +1,190 @@
+body {
+    background-color: #000000;
+    background-image: url('../img/tile.jpg');
+    background-repeat: repeat;
+    color: #33ffcc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #cc99ff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #66cccc;
+}
+
+a:active {
+    color: #ff0066;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+header .header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+header .header-text span {
+    font-size: 2.5em;
+    margin: 0 10px;
+}
+
+header .header-text .hale-bopp {
+    color: #ff0000;
+}
+
+header .header-text .closure {
+    color: #66ffff;
+}
+
+nav {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav hr {
+    width: 80%;
+    height: 1px;
+    background-color: #000;
+    border: none;
+    margin: 10px auto;
+}
+
+nav .nav-title {
+    font-size: 2.5em;
+    color: #ff0099;
+    font-weight: bold;
+}
+
+section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+section .intro-content {
+    width: 92%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+section .intro-content p {
+    font-size: 1.2em;
+}
+
+section .links-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section .link-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+section .link-item img {
+    margin-right: 10px;
+}
+
+section .link-text {
+    font-size: 1.5em;
+}
+
+section .link-text a {
+    color: #cc99ff;
+}
+
+section .link-text a:visited {
+    color: #66cccc;
+}
+
+section .link-text a:active {
+    color: #ff0066;
+}
+
+section hr {
+    width: 85%;
+    height: 1px;
+    background-color: #000;
+    border: none;
+    margin: 20px auto;
+}
+
+section .order-title {
+    font-size: 2.5em;
+    color: #ff0099;
+    font-weight: bold;
+}
+
+article {
+    text-align: left;
+    padding: 20px;
+}
+
+article p {
+    font-size: 1.2em;
+}
+
+article ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article li {
+    margin: 10px 0;
+}
+
+article .video-title {
+    font-size: 1.5em;
+    color: #ccffff;
+}
+
+aside {
+    text-align: left;
+    padding: 20px;
+}
+
+aside img.float-right {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+aside p {
+    font-size: 1.2em;
+}
+
+aside .address {
+    font-size: 1.5em;
+    color: #ffcc66;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .footer-content a {
+    margin: 0 10px;
+}
