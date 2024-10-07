@@ -1,6 +1,7 @@
 body {
     background-color: #000000;
-    background-image: url('img/tile.jpg');
+    background-image: url('../img/tile.jpg');
+    background-repeat: repeat;
     color: #33ffcc;
     font-family: Arial, sans-serif;
 }
